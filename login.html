@@ -7,12 +7,12 @@
     <!-- the form awesome library is used to add icons to our form -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
     <!-- include the stylesheet file -->
-    <link href="/style.css" rel="stylesheet" type="text/css">
+    <link href="static/style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div class="login">
     <h1>Login</h1>
-    <form action="/auth" method="post">
+    <form action="/main.html" method="post">
         <label for="username">
             <!-- font awesome icon -->
             <i class="fas fa-user"></i>
@@ -22,7 +22,7 @@
             <i class="fas fa-lock"></i>
         </label>
         <input type="password" name="password" placeholder="Password" id="password" required>
-        <input type="submit" value="Login">
+        <a href="/main.html"><input type="submit" value="Login"></a>
     </form>
 </div>
 </body>
